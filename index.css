@@ -116,6 +116,7 @@ body {
 
 h1 {
   font-family: "Chelsea Market", cursive;
+  font-size: 5rem;
 }
 
 nav {
@@ -156,6 +157,7 @@ nav a {
   display: inline-block;
   width: 45%;
   margin: 0 2%;
+  text-align: center;
 }
 
 .left img {
