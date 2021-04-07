@@ -131,6 +131,11 @@ nav a {
   text-align: center;
   color: #fff;
   text-decoration: none;
+  transition: transform 250ms;
+}
+
+nav a:hover {
+  transform: translateY(-10px);
 }
 
 .orange {
