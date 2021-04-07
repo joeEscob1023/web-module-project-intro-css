@@ -100,7 +100,7 @@ q {
 * {
   box-sizing: border-box;
   max-width: width 100%;
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
 }
 
 /* General Styles*/
@@ -155,14 +155,14 @@ nav a {
 
 .top div {
   display: inline-block;
-  width: 45%;
+  width: 46%;
   margin: 0 2%;
   text-align: center;
 }
 
 .left img {
   border-radius: 50%;
-  width: 60%;
+  width: 50%;
 }
 
 .right {
@@ -170,4 +170,55 @@ nav a {
   line-height: 2;
   position: absolute;
   bottom: 20%;
+}
+
+.centerInfo {
+  background-color: #ddb9a3;
+  margin: 1% 4%;
+}
+.centerInfo div {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.centerInfo p {
+  text-align: center;
+  color: #fff;
+  padding: 2%;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.bottomInfo {
+  text-align: center;
+  width: 25%;
+  margin: 0 auto;
+}
+
+.bottomInfo img {
+  width: 30%;
+  margin: 5%;
+}
+
+/* Its bolded, I couldn't figure out to make it more noticeable */
+span.bold {
+  font-weight: bolder;
+}
+
+.footerImage {
+  background-image: url("assets/footer_img.jpg");
+  height: 48rem;
+  margin-top: 6%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* .footerImage img {
+  background-image: url("/assets/footer_img.jpg");
+  width: 100%;
+  height: 48rem;
+} */
+
+.footer {
+  background-color: #f9e7dc;
 }
